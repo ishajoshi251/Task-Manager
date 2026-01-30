@@ -1,0 +1,79 @@
+
+Table {
+  margin-top: 20px;
+}
+tr{
+  background: none!important;
+}
+.table-header {
+  text-align: center;
+}
+
+.table-cell {
+  text-align: center;
+  padding: 1rem 0.5rem!important;
+  background: none!important;
+}
+
+.task-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.task-box span{
+  border-radius: 0 0 0 20px;
+}
+.task-box span i{
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  color: rgba(104, 74, 37, 0.554);
+  font-weight: 300;
+}
+
+.tr-first-child div {
+  background-color: #71c5c445;
+}
+.tr-second-child div {
+  background-color: #c1e0da41;
+}
+.tr-third-child div {
+  background-color: #f8e7db9b;
+}
+.tr-fourth-child div{
+  background-color: #fcbdbf45;
+}
+tr div{
+  transition: background-color 200ms linear;
+}
+tr div:hover{
+    background-color: white;
+}
+
+.task-box h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.task-box p {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.task-box .time {
+  color: #6c757d;
+}
+
+#tasktable_div {
+  height: 90vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.join-btn{
+  outline: none;
+  border: none;
+  background-color: white!important;
+  border-radius: 20px;
+}
