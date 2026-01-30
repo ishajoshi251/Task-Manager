@@ -1,0 +1,67 @@
+/* inner- wrapper  */
+
+
+.inner-wrapper h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.inner-wrapper .form-field input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 10px 20px;
+}
+
+.inner-wrapper .form-field {
+  padding: 0 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #dcdbff87, inset -8px -8px 8px #dcdbff87;
+}
+
+.inner-wrapper .form-field .fa {
+  color: #555;
+  color: #8b8585;
+}
+
+.inner-wrapper .btn {
+  width: 100%;
+  padding: 5px 0px;
+  background-color: #554ff7a6;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+  letter-spacing: 1.3px;
+}
+
+.inner-wrapper .btn:hover {
+  /* background-color: #504bef89; */
+  background-color: #504befc0;
+}
+
+.inner-wrapper a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #2223229e;
+}
+
+.inner-wrapper a:hover {
+  font-size: 1rem;
+}
+
+/* Signup */
+
+#Signup .form-field input {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
